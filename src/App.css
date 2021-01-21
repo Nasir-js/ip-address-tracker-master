@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.img-bg {
+  height: 30vh;
+  width: 100vw;
+}
+
+#map {
+  height: 70vh;
+}
