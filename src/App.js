@@ -3,7 +3,7 @@ import LeafletMap from "leaflet"
 import './App.css';
 import InfoDashBoard from './components/info-dashboard'
 
-const test = require("leaflet")
+const IP_API_KEY = "at_grX4sgs9IgSA3dKCC4pDk1JfnHIRD"
 const MAP_BOX_KEY = 'pk.eyJ1IjoibmFzaXJpYnJhaGltIiwiYSI6ImNrazVtcXI3ajA4bGYycG53YzF5YmU2czkifQ.cF5THuhE-nBpxe19wNZAcg'
 function App() {
 
