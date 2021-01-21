@@ -1,7 +1,11 @@
-const InfoDashBoard = () => {
+/**
+ * 
+ * data is passed as prop (i.e property)
+ */
+const InfoDashBoard = ({ data }) => {
     return (
         <div>
-            InfoDashboard
+            {JSON.stringify(data)}
         </div>
     )
 }
