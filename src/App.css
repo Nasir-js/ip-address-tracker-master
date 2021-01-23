@@ -10,3 +10,11 @@
 #map {
   height: 70vh;
 }
+
+.dashboard {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+}
