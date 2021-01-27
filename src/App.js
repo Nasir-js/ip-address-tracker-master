@@ -2,7 +2,8 @@ import * as React from "react"
 import LeafletMap from "leaflet"
 import './App.css';
 import InfoDashBoard from './components/info-dashboard'
-import { getIpInfo } from './services/ip-service';
+import { getIpInfo } from './services/ip-service'
+import bgImage from './components/bg-image'
 
 const MAP_BOX_KEY = 'pk.eyJ1IjoibmFzaXJpYnJhaGltIiwiYSI6ImNrazVtcXI3ajA4bGYycG53YzF5YmU2czkifQ.cF5THuhE-nBpxe19wNZAcg'
 
@@ -43,6 +44,11 @@ function App() {
 
   return (
     <div className="App">
+      {/** i tried to include the image directly but i kept getting a 'map already initialized error and
+       *  even after creating a new component for the image,
+       *  a second map keeps getting loaded up or throwing the same error' */}
+      <bgImage />
+
       <input
         onChange={(e) => {
           e.preventDefault()
